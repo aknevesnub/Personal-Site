@@ -86,7 +86,7 @@ const pt: ContentData = {
     {
       id: 1,
       title: 'FarmBy',
-      description: 'Plataforma AgroTech com +13.600 usuários orgânicos e 2 milhões de acessos/mês. Construído do zero até forte tração.',
+      description: 'Plataforma AgroTech com +17.744 usuários orgânicos e 2 milhões de acessos/mês. Construído do zero até forte tração.',
       link: 'https://app.farmby.com.br',
       emoji: '🌱',
       logo: '/FARMBY LOGO.png',
@@ -95,7 +95,7 @@ const pt: ContentData = {
       timeline: [
         { date: 'Agosto 2023', title: 'Product Discovery & MVP', description: 'Início do discovery para mapear a dor no agronegócio e lançamento do Produto Mínimo Viável.' },
         { date: 'Janeiro 2024', title: 'Tração Inicial', description: 'Marco de 5.000 usuários orgânicos e melhoria da jornada do usuário (CRO).' },
-        { date: 'Presente', title: 'Scale & Growth', description: '+13.600 usuários ativos e 2 milhões de acessos orgânicos/mês com foco contínuo em Acquisition.' },
+        { date: 'Presente', title: 'Scale & Growth', description: '+17.744 usuários ativos e 2 milhões de acessos orgânicos/mês com foco contínuo em Acquisition.' },
       ]
     },
     {
@@ -235,7 +235,7 @@ const en: ContentData = {
     {
       id: 1,
       title: 'FarmBy',
-      description: 'AgroTech Platform with +13,600 organic users and 2 million accesses/month. Built from scratch to strong traction.',
+      description: 'AgroTech Platform with +17,744 organic users and 2 million accesses/month. Built from scratch to strong traction.',
       link: 'https://app.farmby.com.br',
       emoji: '🌱',
       logo: '/FARMBY LOGO.png',
@@ -244,7 +244,7 @@ const en: ContentData = {
       timeline: [
         { date: 'August 2023', title: 'Product Discovery & MVP', description: 'Started discovery to map agribusiness pain points and launched the Minimum Viable Product.' },
         { date: 'January 2024', title: 'Initial Traction', description: 'Milestone of 5,000 organic users and user journey improvement (CRO).' },
-        { date: 'Present', title: 'Scale & Growth', description: '+13,600 active users and 2 million organic accesses/month with continuous focus on Acquisition.' },
+        { date: 'Present', title: 'Scale & Growth', description: '+17,744 active users and 2 million organic accesses/month with continuous focus on Acquisition.' },
       ]
     },
     {
