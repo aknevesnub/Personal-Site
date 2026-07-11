@@ -7,7 +7,6 @@
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && cd dist && git init -b gh-pages -q && git add -A && git commit -q -m deploy && git push -f https://github.com/aknevesnub/Personal-Site.git gh-pages && cd .. && rm -rf dist/.git",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },

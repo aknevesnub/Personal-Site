@@ -13,8 +13,4 @@ Abre em http://localhost:3000.
 
 ## Deploy
 
-```bash
-npm run deploy
-```
-
-Faz o build e publica a pasta `dist` na branch `gh-pages` (GitHub Pages), servida em https://andreknopp.com.br.
+Push na branch `main` publica automaticamente via Vercel em https://andreknopp.com.br.
