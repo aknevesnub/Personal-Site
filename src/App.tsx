@@ -237,12 +237,28 @@ export default function App() {
                   </div>
 
                   <div className={`w-full lg:w-1/2 flex justify-center relative ${index % 2 !== 0 ? 'lg:order-1' : ''}`}>
-                    <img 
-                      src={project.image} 
-                      alt={project.title} 
-                      className="w-full max-w-md lg:max-w-3xl object-contain drop-shadow-2xl"
-                      style={{ maxHeight: '600px' }}
-                    />
+                    {project.images ? (
+                      <div className="flex flex-col sm:flex-row items-center justify-center gap-8 w-full">
+                        {project.images.map((img) => (
+                          <div key={img.src} className="flex flex-col items-center gap-3">
+                            <img
+                              src={img.src}
+                              alt={`${project.title} — ${img.label}`}
+                              className="w-full max-w-sm object-contain drop-shadow-2xl"
+                              style={{ maxHeight: '600px' }}
+                            />
+                            <span className="text-sm tracking-widest uppercase text-white/40">{img.label}</span>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full max-w-sm lg:max-w-md object-contain drop-shadow-2xl"
+                        style={{ maxHeight: '600px' }}
+                      />
+                    )}
                   </div>
                 </motion.div>
               ))}

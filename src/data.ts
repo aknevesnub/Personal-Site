@@ -11,6 +11,7 @@ export interface ProjectData {
   logo: string;
   color: string;
   image: string;
+  images?: { src: string; label: string }[];
   timeline: { date: string; title: string; description: string }[];
 }
 
@@ -106,7 +107,11 @@ const pt: ContentData = {
       emoji: '🚜',
       logo: '/RURAL ROTA LOGO.png',
       color: 'from-amber-500/20 to-orange-500/20',
-      image: '/ruralrota.png',
+      image: '/ruralrota-v2.png',
+      images: [
+        { src: '/ruralrota-v1.png', label: '2024 · v1' },
+        { src: '/ruralrota-v2.png', label: '2026 · v2' },
+      ],
       timeline: [
         { date: 'Janeiro 2024', title: 'Discovery & Posicionamento', description: 'Identificação de lacuna no mercado e definição de estratégia para gestão digital de vendas.' },
         { date: 'Setembro 2024', title: 'Desenvolvimento do Core', description: 'Entrega do CRM de vendas, gestão de equipes externas e caderno de campo digital.' },
@@ -256,7 +261,11 @@ const en: ContentData = {
       emoji: '🚜',
       logo: '/RURAL ROTA LOGO.png',
       color: 'from-amber-500/20 to-orange-500/20',
-      image: '/ruralrota.png',
+      image: '/ruralrota-v2.png',
+      images: [
+        { src: '/ruralrota-v1.png', label: '2024 · v1' },
+        { src: '/ruralrota-v2.png', label: '2026 · v2' },
+      ],
       timeline: [
         { date: 'January 2024', title: 'Discovery & Positioning', description: 'Identified a market gap and defined the strategy for digital sales management.' },
         { date: 'September 2024', title: 'Core Development', description: 'Delivered the sales CRM, external team management, and digital field notebook.' },
