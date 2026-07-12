@@ -357,6 +357,48 @@ export default function App() {
             </div>
           </section>
 
+          {/* SECÇÃO: CONSULTORIA */}
+          <section id="consultoria" className="pt-10">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="mb-12"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{data.sections.consulting.title}</h2>
+              <p className="text-white/50 font-light text-lg max-w-xl">{data.sections.consulting.subtitle}</p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+              {data.sections.consulting.items.map((item, idx) => (
+                <motion.div
+                  key={idx}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: idx * 0.15 }}
+                  className="p-6 rounded-3xl bg-white/[0.03] border border-white/5 hover:bg-white/[0.06] hover:border-white/20 transition-all duration-300"
+                >
+                  <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+                  <p className="text-white/50 font-light text-sm leading-relaxed">{item.description}</p>
+                </motion.div>
+              ))}
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <a href="https://wa.me/5551985760588" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-black hover:bg-white/90 rounded-full font-medium transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:scale-105 active:scale-95">
+                <MessageCircle className="w-5 h-5" />
+                {data.sections.consulting.cta}
+              </a>
+            </motion.div>
+          </section>
+
           {/* SECÇÃO: CONTATO */}
           <section id="contato" className="pt-24 pb-20 border-t border-white/10 mt-20 text-center">
             <motion.div

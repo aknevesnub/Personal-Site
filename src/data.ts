@@ -43,6 +43,7 @@ export interface ContentData {
     projects: { title: string; subtitle: string; btnAccess: string };
     experience: { title: string; subtitle: string };
     education: { title: string; subtitle: string; academic: string; certs: string };
+    consulting: { title: string; subtitle: string; items: { title: string; description: string }[]; cta: string };
     contact: { title: string; subtitle: string; email: string };
   };
   projects: ProjectData[];
@@ -76,6 +77,16 @@ const pt: ContentData = {
       subtitle: 'Minha base acadêmica e especializações recentes.',
       academic: 'Formação Acadêmica',
       certs: 'Certificações',
+    },
+    consulting: {
+      title: 'Consultoria',
+      subtitle: 'Além dos meus produtos, atendo empresas e founders em projetos sob medida.',
+      items: [
+        { title: 'Product Discovery & Estratégia', description: 'Da dor do usuário ao roadmap: descoberta, posicionamento, priorização e métricas para tirar o produto do papel com foco no que gera receita.' },
+        { title: 'Growth & CRO', description: 'Otimização de funil, aquisição orgânica e conversão — o método que levou a FarmBy a +17 mil usuários e 2 milhões de acessos/mês.' },
+        { title: 'MVP com IA', description: 'Construção de produtos completos em semanas usando IA como copiloto de desenvolvimento — como fiz com o Valen24 e o Rural Rota v2.' },
+      ],
+      cta: 'Agendar uma conversa',
     },
     contact: {
       title: 'Entre em contato.',
@@ -252,6 +263,16 @@ const en: ContentData = {
       subtitle: 'My academic background and recent specializations.',
       academic: 'Academic Background',
       certs: 'Certifications',
+    },
+    consulting: {
+      title: 'Consulting',
+      subtitle: 'Beyond my own products, I work with companies and founders on tailored projects.',
+      items: [
+        { title: 'Product Discovery & Strategy', description: 'From user pain to roadmap: discovery, positioning, prioritization and metrics to get your product off the ground with focus on what drives revenue.' },
+        { title: 'Growth & CRO', description: 'Funnel optimization, organic acquisition and conversion — the playbook that took FarmBy to 17k+ users and 2 million visits/month.' },
+        { title: 'AI-powered MVPs', description: 'Building complete products in weeks using AI as a development copilot — as I did with Valen24 and Rural Rota v2.' },
+      ],
+      cta: 'Book a call',
     },
     contact: {
       title: 'Get in touch.',
