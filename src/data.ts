@@ -101,7 +101,7 @@ const pt: ContentData = {
     {
       id: 2,
       title: 'Rural Rota - CRM do Agro',
-      description: 'CRM B2B para o agronegócio. 10+ funcionalidades entregues do discovery ao lançamento em 24 meses com clientes adquiridos.',
+      description: 'CRM B2B para o agronegócio, reconstruído do zero em 2026: novo app web e mobile com pipeline de vendas em tempo real, clientes no mapa, clima por região e assistente de IA.',
       link: 'https://ruralrota.com.br',
       emoji: '🚜',
       logo: '/RURAL ROTA LOGO.png',
@@ -111,6 +111,7 @@ const pt: ContentData = {
         { date: 'Janeiro 2024', title: 'Discovery & Posicionamento', description: 'Identificação de lacuna no mercado e definição de estratégia para gestão digital de vendas.' },
         { date: 'Setembro 2024', title: 'Desenvolvimento do Core', description: 'Entrega do CRM de vendas, gestão de equipes externas e caderno de campo digital.' },
         { date: 'Janeiro 2026', title: 'Lançamento & Adoção', description: 'Entrega final dentro do prazo contratual, com 6 grandes empresas clientes adquiridas.' },
+        { date: 'Julho 2026', title: 'Rebuild do Zero (v2)', description: 'Plataforma inteiramente refeita: dashboard personalizável com clientes no mapa, funil com R$16M+ em pipeline, clima em tempo real, alertas e assistente de IA integrado.' },
       ]
     },
     {
@@ -140,8 +141,8 @@ const pt: ContentData = {
       id: 2,
       role: 'Product Manager',
       company: 'Rural Rota - CRM do Agro',
-      period: 'Jan 2024 — Jan 2026',
-      description: 'Liderança completa de produto construindo solução do zero. Discovery, roadmap, gestão de equipes externas e caderno de campo digital. 6 empresas clientes.',
+      period: 'Jan 2024 — Presente',
+      description: 'Liderança completa de produto construindo solução do zero. Discovery, roadmap, gestão de equipes externas e caderno de campo digital. 6 empresas clientes. Em 2026, rebuild completo da plataforma (v2).',
     },
     {
       id: 3,
@@ -250,7 +251,7 @@ const en: ContentData = {
     {
       id: 2,
       title: 'Rural Rota - CRM do Agro',
-      description: 'B2B CRM for agribusiness. 10+ features delivered from discovery to launch in 24 months with acquired clients.',
+      description: 'B2B CRM for agribusiness, rebuilt from scratch in 2026: new web and mobile app with real-time sales pipeline, clients on the map, regional weather and an AI assistant.',
       link: 'https://ruralrota.com.br',
       emoji: '🚜',
       logo: '/RURAL ROTA LOGO.png',
@@ -260,6 +261,7 @@ const en: ContentData = {
         { date: 'January 2024', title: 'Discovery & Positioning', description: 'Identified a market gap and defined the strategy for digital sales management.' },
         { date: 'September 2024', title: 'Core Development', description: 'Delivered the sales CRM, external team management, and digital field notebook.' },
         { date: 'January 2026', title: 'Launch & Adoption', description: 'Final delivery within the contractual deadline, acquiring 6 major corporate clients.' },
+        { date: 'July 2026', title: 'Rebuilt from Scratch (v2)', description: 'Platform fully rebuilt: customizable dashboard with clients on the map, funnel holding R$16M+ in open pipeline, real-time weather, alerts and an integrated AI assistant.' },
       ]
     },
     {
@@ -289,8 +291,8 @@ const en: ContentData = {
       id: 2,
       role: 'Product Manager',
       company: 'Rural Rota - CRM do Agro',
-      period: 'Jan 2024 — Jan 2026',
-      description: 'End-to-end product leadership building a solution from scratch. Discovery, roadmap, external team management, and digital field notebook. Acquired 6 corporate clients.',
+      period: 'Jan 2024 — Present',
+      description: 'End-to-end product leadership building a solution from scratch. Discovery, roadmap, external team management, and digital field notebook. Acquired 6 corporate clients. In 2026, full platform rebuild (v2).',
     },
     {
       id: 3,
