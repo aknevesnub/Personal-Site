@@ -195,9 +195,9 @@ export default function App() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.8, delay: index * 0.1 }}
-                  className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24"
+                  className={`flex flex-col ${project.images ? '' : 'lg:flex-row'} items-center gap-16 lg:gap-24`}
                 >
-                  <div className={`w-full lg:w-1/2 flex flex-col ${index % 2 !== 0 ? 'lg:order-2' : ''}`}>
+                  <div className={`w-full ${project.images ? '' : 'lg:w-1/2'} flex flex-col ${index % 2 !== 0 && !project.images ? 'lg:order-2' : ''}`}>
                     <div className="mb-6">
                       {project.logo ? (
                         <img 
@@ -236,15 +236,15 @@ export default function App() {
                     </div>
                   </div>
 
-                  <div className={`w-full lg:w-1/2 flex justify-center relative ${index % 2 !== 0 ? 'lg:order-1' : ''}`}>
+                  <div className={`w-full ${project.images ? '' : 'lg:w-1/2'} flex justify-center relative ${index % 2 !== 0 && !project.images ? 'lg:order-1' : ''}`}>
                     {project.images ? (
                       <div className="flex flex-col sm:flex-row items-center justify-center gap-8 w-full">
                         {project.images.map((img) => (
-                          <div key={img.src} className="flex flex-col items-center gap-3 shrink-0">
+                          <div key={img.src} className="flex flex-col items-center gap-3 flex-1 min-w-0 w-full">
                             <img
                               src={img.src}
                               alt={`${project.title} — ${img.label}`}
-                              className="h-[26rem] sm:h-[34rem] w-auto shrink-0 object-contain drop-shadow-2xl"
+                              className="w-full h-auto max-h-[26rem] sm:max-h-[37.5rem] object-contain drop-shadow-2xl"
                             />
                             <span className="text-sm tracking-widest uppercase text-white/40">{img.label}</span>
                           </div>
