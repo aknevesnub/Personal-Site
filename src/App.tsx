@@ -240,11 +240,11 @@ export default function App() {
                     {project.images ? (
                       <div className="flex flex-col sm:flex-row items-center justify-center gap-8 w-full">
                         {project.images.map((img) => (
-                          <div key={img.src} className="flex flex-col items-center gap-3">
+                          <div key={img.src} className="flex flex-col items-center gap-3 shrink-0">
                             <img
                               src={img.src}
                               alt={`${project.title} — ${img.label}`}
-                              className="h-[26rem] sm:h-[34rem] w-auto max-w-full object-contain drop-shadow-2xl"
+                              className="h-[26rem] sm:h-[34rem] w-auto shrink-0 object-contain drop-shadow-2xl"
                             />
                             <span className="text-sm tracking-widest uppercase text-white/40">{img.label}</span>
                           </div>
