@@ -240,7 +240,7 @@ export default function App() {
                     <img 
                       src={project.image} 
                       alt={project.title} 
-                      className="w-full max-w-sm lg:max-w-md object-contain drop-shadow-2xl" 
+                      className="w-full max-w-md lg:max-w-3xl object-contain drop-shadow-2xl"
                       style={{ maxHeight: '600px' }}
                     />
                   </div>
