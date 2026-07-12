@@ -244,8 +244,7 @@ export default function App() {
                             <img
                               src={img.src}
                               alt={`${project.title} — ${img.label}`}
-                              className="w-full max-w-sm object-contain drop-shadow-2xl"
-                              style={{ maxHeight: '600px' }}
+                              className="h-[26rem] sm:h-[34rem] w-auto max-w-full object-contain drop-shadow-2xl"
                             />
                             <span className="text-sm tracking-widest uppercase text-white/40">{img.label}</span>
                           </div>
