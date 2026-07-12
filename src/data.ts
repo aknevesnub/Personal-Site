@@ -120,6 +120,21 @@ const pt: ContentData = {
       ]
     },
     {
+      id: 4,
+      title: 'Valen24',
+      description: 'SaaS financeiro para empresas brasileiras, construído do zero em 5 meses com IA como copiloto de desenvolvimento. Emissão de NFS-e Nacional integrada à Receita Federal, multi-empresa e painel super-admin.',
+      link: 'https://valen24.com.br',
+      emoji: '💛',
+      logo: '/VALEN24 LOGO.png',
+      color: 'from-yellow-500/20 to-amber-500/20',
+      image: '/valen24.png',
+      timeline: [
+        { date: 'Início 2026', title: 'Concepção & MVP', description: 'Desenvolvimento solo com IA como copiloto: dashboard financeiro, lançamentos, contas, DRE e relatórios.' },
+        { date: 'Maio 2026', title: 'NFS-e Nacional', description: 'Emissão, cancelamento e DANFSe em PDF integrados à Receita Federal, com mTLS, certificado ICP-Brasil A1 e assinatura digital XML implementada do zero — incluindo proxy próprio para contornar incompatibilidade de TLS com o servidor do governo.' },
+        { date: 'Presente', title: 'Multi-empresa & Escala', description: 'Cada empresa emite NFS-e com seu próprio certificado, armazenado criptografado, e painel super-admin com gestão de empresas, usuários e status do sistema em tempo real.' },
+      ]
+    },
+    {
       id: 3,
       title: 'Quem Produz',
       description: 'Novo projeto em desenvolvimento. Focado em conectar a cadeia produtiva do agronegócio.',
@@ -135,6 +150,13 @@ const pt: ContentData = {
     },
   ],
   experience: [
+    {
+      id: 7,
+      role: 'Product Builder',
+      company: 'Valen24',
+      period: 'Jan 2026 — Presente',
+      description: 'Construí do zero, em 5 meses, um SaaS financeiro usando IA como copiloto de desenvolvimento. Emissão de NFS-e Nacional com mTLS e certificado ICP-Brasil, assinatura digital XML do zero, arquitetura multi-empresa com certificados criptografados e painel super-admin. Stack: React, TypeScript, Supabase Edge Functions, Deno, Node.js.',
+    },
     {
       id: 1,
       role: 'Growth Product Manager',
@@ -274,6 +296,21 @@ const en: ContentData = {
       ]
     },
     {
+      id: 4,
+      title: 'Valen24',
+      description: 'Financial SaaS for Brazilian companies, built solo from scratch in 5 months with AI as a development copilot. Nationwide NFS-e invoicing integrated with Brazil\'s Federal Revenue, multi-company and super-admin panel.',
+      link: 'https://valen24.com.br',
+      emoji: '💛',
+      logo: '/VALEN24 LOGO.png',
+      color: 'from-yellow-500/20 to-amber-500/20',
+      image: '/valen24.png',
+      timeline: [
+        { date: 'Early 2026', title: 'Concept & MVP', description: 'Solo development with AI as a copilot: financial dashboard, transactions, accounts, P&L and reports.' },
+        { date: 'May 2026', title: 'Nationwide NFS-e', description: 'Invoice issuance, cancellation and PDF download integrated with Brazil\'s Federal Revenue, with mTLS, ICP-Brasil A1 certificate and XML digital signature implemented from scratch — including a custom proxy to work around a TLS incompatibility with the government server.' },
+        { date: 'Present', title: 'Multi-company & Scale', description: 'Each company issues invoices with its own certificate, stored encrypted, plus a super-admin panel managing companies, users and real-time system status.' },
+      ]
+    },
+    {
       id: 3,
       title: 'Quem Produz',
       description: 'New project in development. Focused on connecting the agribusiness supply chain.',
@@ -289,6 +326,13 @@ const en: ContentData = {
     },
   ],
   experience: [
+    {
+      id: 7,
+      role: 'Product Builder',
+      company: 'Valen24',
+      period: 'Jan 2026 — Present',
+      description: 'Built a financial SaaS from scratch in 5 months using AI as a development copilot. Nationwide NFS-e invoicing with mTLS and ICP-Brasil certificate, XML digital signature from scratch, multi-company architecture with encrypted certificates and a super-admin panel. Stack: React, TypeScript, Supabase Edge Functions, Deno, Node.js.',
+    },
     {
       id: 1,
       role: 'Growth Product Manager',
